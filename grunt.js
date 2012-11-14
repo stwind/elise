@@ -50,10 +50,18 @@ module.exports = function(grunt) {
         module: false
       }
     },
-    uglify: {}
+    uglify: {},
+    browserify: {
+      "dist/elise.js": {
+        entries: ["lib/**/*.js"],
+        prepend: ['<banner:meta.banner>']
+      }
+    }
   });
 
   // Default task.
   grunt.registerTask('default', 'lint test concat min');
+
+  grunt.loadNpmTasks('grunt-browserify');
 
 };
