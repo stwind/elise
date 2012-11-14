@@ -52,7 +52,7 @@ module.exports = function(grunt) {
     },
     uglify: {},
     browserify: {
-      "dist/elise.js": {
+      "dist/bundle.js": {
         entries: ["lib/**/*.js"],
         prepend: ['<banner:meta.banner>']
       }
