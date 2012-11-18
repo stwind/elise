@@ -29,7 +29,9 @@
   },
   "devDependencies": {
     "grunt": "~0.3.17",
-    "grunt-browserify": "~0.1.0"
+    "grunt-browserify": "~0.1.0",
+    "underscore": "~1.4.2",
+    "async": "~0.1.22"
   },
   "keywords": []
 }
