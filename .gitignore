@@ -3,6 +3,7 @@
 /node_modules
 /images
 /sound
+/gh-pages
 
 .DS_Store
 lib-cov
