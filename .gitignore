@@ -1,7 +1,5 @@
 /components
 /node_modules
-/images
-/sound
 /dist
 
 .DS_Store
